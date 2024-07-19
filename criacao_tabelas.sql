@@ -33,7 +33,6 @@ CREATE TABLE cryptocurrency_quotes (
     BRL_last_updated TIMESTAMPTZ
 );
 
-drop table cryptocurrency_quotes
 	
 CREATE TABLE cryptocurrency_quotes_tags_data(
 	quote_id INT,
