@@ -25,7 +25,7 @@ modelando-os e os armazenando em um banco de dados PostgreSQL.
   DATABASE_URL='YOUR_DATABASE_URL'
 ```
 
-4. Execute o arquivo criacoes_tabelas.sql para criar as tabelas necessárias no banco de dados.
+4. Execute o arquivo criacoes_tabelas.sql para criar as tabelas necessárias no banco de dados(OBS: o banco precisa ser PostgreSQL).
 Você pode fazer isso usando uma ferramenta como psql ou qualquer outro cliente PostgreSQL:
 
 ```sh
