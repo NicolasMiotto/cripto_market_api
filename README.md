@@ -7,7 +7,7 @@ modelando-os e os armazenando em um banco de dados PostgreSQL.
 1. Clone o repositório:
 
 ```sh
-   git clone https://github.com/seuusuario/cripto-api-integration.git
+   git clone https://github.com/NicolasMiotto/cripto_market_api.git
    cd cripto-api-integration
 ```
 
