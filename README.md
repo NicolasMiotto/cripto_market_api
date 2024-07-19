@@ -22,7 +22,7 @@ modelando-os e os armazenando em um banco de dados PostgreSQL.
 
 ```sh
   API_KEY='YOUR_API_KEY'
-  DATABASE_URL='YOUR_DATABASE_URL'
+  DATABASE_URL='postgresql://usuario:senha@host:porta/nome_do_banco'
 ```
 
 4. Execute o arquivo criacoes_tabelas.sql para criar as tabelas necessárias no banco de dados(OBS: o banco precisa ser PostgreSQL).
