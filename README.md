@@ -4,7 +4,7 @@ modelando-os e os armazenando em um banco de dados PostgreSQL.
 
 ## Instalação
 
-1. Clone o repositório:
+1. Clone o repositório com o seguinte comando:
 
 ```sh
    git clone https://github.com/NicolasMiotto/cripto_market_api.git
@@ -12,7 +12,7 @@ modelando-os e os armazenando em um banco de dados PostgreSQL.
 ```
 
 
-2.Instale as dependências:
+2.Instale as dependências do arquivo requirements:
 
 ```sh
   pip install -r requirements.txt
