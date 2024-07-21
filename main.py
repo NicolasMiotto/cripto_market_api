@@ -4,7 +4,6 @@ from database_connect import insert_crypto_data
 import time
 def main():
     # Requisições
-    time.sleep(2)
     crypto_listing_data = get_crypto_listings_data()
     time.sleep(2)
     critpo_quotes_data = get_crypto_quote_data()
@@ -13,7 +12,6 @@ def main():
     print(critpo_quotes_data)
 
     # Transformação de dados
-    time.sleep(2)
     cleaned_quote_data = parse_crypt_quote_data(critpo_quotes_data)
     time.sleep(2)
     cleaned_quote_tags_data = parse_crypt_quote_tags_data(critpo_quotes_data)
